@@ -32,16 +32,7 @@
               >
             </li>
             <li class="nav-item">
-              <router-link
-                class="nav-link"
-                to="/team"
-                :class="{ active: $route.path == '/team' }">Team</router-link>
-            </li>
-            <li class="nav-item">
-              <router-link
-                class="nav-link"
-                to="/repos"
-                :class="{ active: $route.path == '/repos' }">Repos</router-link>
+              <router-link class="nav-link" to="/team" :class="{ active: $route.path == '/team' }">{{ $t("team") }}</router-link>
             </li>
             <li class="nav-item" :class="{ active: $route.path == '/contact' }">
               <router-link to="/contact" class="nav-link">{{ $t("contact") }}</router-link>
