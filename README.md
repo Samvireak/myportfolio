@@ -1,4 +1,4 @@
-# myportfolio
+# finexo-vue
 
 ## Project setup
 ```
